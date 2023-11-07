@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    justify-content: space-betw; 
+    align-items: center;
+    min-height: 300px;
+
+    flex-direction: column;
+    background: rgb(131,58,180);
+background: linear-gradient(261deg, rgba(131,58,180,1) 0%, rgba(29,169,253,0.6979166666666667) 50%, rgba(252,176,69,1) 100%);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 50px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translatez(0);
+    transition: transform 0.2s ease-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}
